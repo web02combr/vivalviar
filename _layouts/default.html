@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+{% include head.html %}
+
+<body class="landing-page">
+
+  {% include header.html %}
+  <div class="wrapper">
+    <div class="page-header page-header-small">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('{{ '/assets/img/bg.jpg' | prepend: site.baseurl }}');">
+      </div>
+      <div class="container">
+        <div class="content-center brand">
+          <img class="n-logo" src="{{ '/assets/img/logo.png' | prepend: site.baseurl }}" alt="Vivalviar Logo">
+          <h1 class="title">Vivalviar Poker</h1>
+          <div class="text-center">
+            <a href="https://www.facebook.com/vivalviarpoker/" class="btn btn-primary btn-icon  btn-icon-mini">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/vivalviarpoker/" class="btn btn-primary btn-icon btn-icon-mini">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+      {{ content }}
+  </div>
+
+
+  {% include footer.html %}
+
+</body>
+<!--   Core JS Files   -->
+<script src="{{ '/assets/js/core/jquery.3.2.1.min.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/core/tether.min.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+<script src="{{ '/assets/js/core/bootstrap.min.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="{{ '/assets/js/plugins/bootstrap-switch.js' | prepend: site.baseurl }}"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="{{ '/assets/js/plugins/nouislider.min.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="{{ '/assets/js/plugins/bootstrap-datepicker.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="{{ '/assets/js/now-ui-kit.js' | prepend: site.baseurl }}" type="text/javascript"></script>
+
+</html>

@@ -1,0 +1,4 @@
+---
+layout: historia
+permalink: /historia/
+---
