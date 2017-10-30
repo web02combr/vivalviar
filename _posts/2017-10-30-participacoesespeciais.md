@@ -11,8 +11,6 @@ date: 2017-10-30T03:02:01.480Z
 
 <h3 class="description">"Página destinada a todas as participações especiais que estiveram conosco desde o início"</h3>
 
-
-
 <div class="team">
 
 <div class="row">
@@ -21,7 +19,7 @@ date: 2017-10-30T03:02:01.480Z
 
 <div class="team-player">
 
-<img src="media/participacoes/alexandre_fracari.jpg" alt="Alexandre Fracari" class="rounded-circle img-fluid img-raised">
+<img src="{{ '/media/participacoes/alexandre_fracari.jpg' | prepend: site.baseurl }}" alt="Alexandre Fracari" class="rounded-circle img-fluid img-raised">
 
 <h4 class="title">Alexandre Fracari</h4>
 
@@ -793,8 +791,6 @@ date: 2017-10-30T03:02:01.480Z
 
 </div>
 
-
-
 <!-- Modelo
 
 <div class="col-md-4">
@@ -803,7 +799,7 @@ date: 2017-10-30T03:02:01.480Z
 
 <img src="media/participacoes/____.jpg" alt="____" class="rounded-circle img-fluid img-raised">
 
-<h4 class="title">\_\_\_\_</h4>
+<h4 class="title">\\_\\_\\_\\_</h4>
 
 <p class="category text-primary"></p>
 
@@ -820,8 +816,6 @@ date: 2017-10-30T03:02:01.480Z
 </div>
 
 \-->
-
-
 
 </div>
 
