@@ -1,5 +1,5 @@
 backend:
-  name: web02combr
+  name: github
   repo: vivalviar # Path to your Github repository
   branch: master # Branch to update (master by default)
 
